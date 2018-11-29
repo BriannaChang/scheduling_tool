@@ -161,7 +161,7 @@ function timetableCard (props) {
 								 	})
 								 }
 					 		</Grid>
-				 		)			 	
+				 		)
 					})
 			 	)
 			}))}
@@ -173,19 +173,19 @@ function timetableCard (props) {
 		<div style={{padding: '10px'}}>
 			<Card >
 				<CardContent style={{textAlign: 'center'}}>
-					Time Table
-					
+					Time Tabley
+
 					<Button variant="outlined" onClick={()=>props.getAllSchedule(123)}>
 						Get All Schedule
-						
+
 					</Button>
 
 				</CardContent>
 			</Card>
 
-			
+
 			{renderinfo}
-			
+
 		</div>
 	)
 }
