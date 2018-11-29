@@ -91,7 +91,7 @@ export default class ChangePassword extends Component {
 
 
       <div>
-      <h1 style={{textAlign:'center'}}>Changey Password </h1>
+      <h1 style={{textAlign:'center'}}>Change Password </h1>
 
       <SimpleCard
       change={this.handleChange.bind(this, "outlined-password-input1")}
