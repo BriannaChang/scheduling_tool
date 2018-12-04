@@ -106,7 +106,8 @@ class timetableCard extends Component {
 
 		return(
 			<div style={{padding: '10px'}}>
-				<div style={{paddingTop: '60px'}}>
+				
+				<div style={{paddingTop: '10px'}}>
 					{renderinfo}
 				</div>
 			</div>
