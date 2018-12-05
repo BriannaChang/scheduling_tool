@@ -14,6 +14,7 @@ import {
 	setNotificationSnackbar
 } from '../../../actions/index';
 import { scheduleVariation } from '../../../themeconfig'
+import ActionButtonsArray from '../../../components/ActionButtonsArray';
 
 const styles = {
 	root: {	
@@ -106,6 +107,7 @@ class timetableCard extends Component {
 
 		return(
 			<div style={{padding: '10px'}}>
+				<ActionButtonsArray buttonArray='test'/>
 				<div style={{paddingTop: '60px'}}>
 					{renderinfo}
 				</div>

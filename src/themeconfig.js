@@ -15,7 +15,7 @@ export const size = {
 	standardFont: 14,
 	smallFont: 12,
 	largeFont: 20,
-	borderRadius: 12,
+	borderRadius: 7,
 	buttonRadius: 19,
 }
 
@@ -51,14 +51,14 @@ export const scheduleVariation = {
 		primary: {
 			color: '#04691C',
 			fontWeight: 'bold',
-		}
+		},
 	},
 	pending: {
 		minWidth: '120px',
 		primary: {
 			color: colorPalette.primary,
 			fontWeight: 'bold',
-		}
+		},
 	},
 	complete: {
 		minWidth: '120px',
