@@ -58,8 +58,8 @@ class timetableCard extends Component {
 		}
 	}
 
-	componentWillUnmount(){
-		this.props.setNotificationSnackbar({isOpen: false, message:""})
+	refreshbutton() {
+		console.log("test")
 	}
 
 	render() {
@@ -105,10 +105,21 @@ class timetableCard extends Component {
 		</div>
 		)
 
+		const actionButton = [
+			{
+				type: 'exportbutton',
+				action: this.refreshbutton,
+			},
+			{
+				type: 'refreshbutton',
+				action: this.refreshbutton,
+			}
+		];
+
 		return(
 			<div style={{padding: '10px'}}>
-				<ActionButtonsArray buttonArray='test'/>
-				<div style={{paddingTop: '60px'}}>
+				<ActionButtonsArray buttonArray={actionButton}/>
+				<div style={{paddingTop: '10px'}}>
 					{renderinfo}
 				</div>
 			</div>

@@ -72,3 +72,23 @@ export const scheduleVariation = {
 }
 
 // Notification Snackbar custom template ////
+
+
+
+// Action Button Array Bar ////
+
+export const buttonVariation = {
+	refreshbutton: {
+		backgroundColor: colorPalette.primary,
+  		hover: {
+	    	backgroundColor: colorPalette.secondary,
+	    	color: 'white',
+	    },
+	    '&:disabled': {
+	    	backgroundColor: colorPalette.disabledButton,
+	    },
+	},
+	exportbutton: {
+
+	}
+}

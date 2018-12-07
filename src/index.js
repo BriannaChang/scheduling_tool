@@ -63,6 +63,19 @@ const theme = createMuiTheme(
 				    	backgroundColor: colorPalette.disabledButton,
 				    },
 		      	},
+		      	fab: {
+		      		boxShadow: '0px',
+		      		backgroundColor: colorPalette.buttonBG,
+		      		'&:hover': {
+				    	backgroundColor: colorPalette.buttonHover,
+				    	color: 'white',
+				    },
+				    '&:disabled': {
+				    	backgroundColor: colorPalette.disabledButton,
+				    },
+				    width: "37px",
+				    height: "20px",
+		      	}
 		    },
 		    MuiCard: {
 		      	root: {
